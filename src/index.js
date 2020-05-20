@@ -8,6 +8,9 @@ import App from "./App";
 //Utils
 import store from "./store";
 
+//Styles
+import "./styles/App.scss";
+
 ReactDOM.render(
   <React.StrictMode>
     <ReduxProvider store={store}>
