@@ -1,3 +1,7 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +12,12 @@
 
 #app {
   display: block;
+}
+
+.main-content {
+  margin-top: 70px;
+
+  @include xs-only {
+    margin-top: 56px;
+  }
 }

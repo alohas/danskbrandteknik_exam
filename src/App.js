@@ -4,12 +4,15 @@ import React from "react";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 
+//Styles
+import "./styles/App.scss";
+
 function App() {
   return (
     <div id="App">
       <NavBar />
 
-      <div></div>
+      <main className="main-content">hello</main>
 
       <Footer />
     </div>
