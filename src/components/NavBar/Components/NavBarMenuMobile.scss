@@ -78,4 +78,33 @@
       width: 25px;
     }
   }
+
+  .menu-items {
+    display: flex;
+    flex-flow: column;
+
+    margin: auto 0;
+    padding-top: 24px;
+  }
+
+  .item {
+    margin: 0 48px 16px 48px;
+    border-bottom: 3px solid $colorBrightNavyBlue;
+    padding-bottom: 1px;
+
+    cursor: pointer;
+
+    color: $colorWhite;
+
+    font-family: $ffVerdana;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+
+    transition: border 0.2s, color 0.2s;
+
+    &:hover {
+      border-bottom: 3px solid $colorWhite;
+    }
+  }
 }

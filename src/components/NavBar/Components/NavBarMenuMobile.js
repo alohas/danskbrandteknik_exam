@@ -17,7 +17,20 @@ function NavBarMenuMobile() {
       <BurgerMenuSvg className="burger-menu-icon" onClick={clickedMenu} />
       <div className={classNames("burger-menu", { active: menuOpened })}>
         <CrossMenuSvg className="close-menu-icon" onClick={clickedMenu} />
-        <div className="menu-items"></div>
+        <div className="menu-items">
+          <div className="item" onClick={clickedMenu}>
+            About
+          </div>
+          <div className="item" onClick={clickedMenu}>
+            Equipment
+          </div>
+          <div className="item" onClick={clickedMenu}>
+            Cost
+          </div>
+          <div className="item" onClick={clickedMenu}>
+            Fire Triangle
+          </div>
+        </div>
       </div>
     </div>
   );

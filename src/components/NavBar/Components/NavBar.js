@@ -10,7 +10,6 @@ import "./NavBar.scss";
 import LogoSvg from "../../../assets/svg/Logo.svg";
 
 const NavBar = ({ mobileDesign }) => {
-  console.log(mobileDesign);
   return (
     <div id="NavBar">
       <div className="logo-wrap">

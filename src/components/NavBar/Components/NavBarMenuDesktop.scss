@@ -3,7 +3,61 @@
 @import "src/styles/global/responsiveness";
 
 #NavBarMenuDesktop {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
   .menu-items {
-    display: grid;
+    display: flex;
+    flex-flow: row;
+
+    margin: auto 0;
+  }
+
+  .item {
+    margin-left: 32px;
+    border-bottom: 3px solid $colorBrightNavyBlue;
+    padding-bottom: 1px;
+
+    cursor: pointer;
+
+    color: $colorWhite;
+
+    font-family: $ffVerdana;
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: border 0.2s, color 0.2s;
+
+    &:hover {
+      border-bottom: 3px solid $colorWhite;
+    }
+  }
+
+  .cta-wrap {
+    display: flex;
+  }
+
+  .cta-item {
+    display: block;
+
+    margin: auto 0px auto 48px;
+    border: 3px solid $colorWhite;
+    padding: 8px 24px;
+    border-radius: 30px;
+
+    color: $colorWhite;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: $ffVerdana;
+
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      background-color: $colorWhite;
+      color: $colorBrightNavyBlue;
+    }
   }
 }
