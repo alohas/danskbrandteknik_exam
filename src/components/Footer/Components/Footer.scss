@@ -1,3 +1,22 @@
-#footer {
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#Footer {
   display: block;
+
+  padding: 64px 12px;
+
+  background-color: $colorBrightNavyBlue;
+
+  .brandteknik-wrap {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+  .nx {
+    height: 250px;
+    width: 250px;
+    fill: $colorWhite;
+  }
 }
