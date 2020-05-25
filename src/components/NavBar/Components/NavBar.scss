@@ -16,7 +16,7 @@
   padding: 4px 32px;
   height: 62px;
 
-  background-color: #557cbf;
+  background-color: $colorBrightNavyBlue;
 
   @include xs-only {
     padding: 4px 16px;
@@ -37,5 +37,12 @@
     width: auto;
 
     cursor: pointer;
+    fill: $colorWhite;
+
+    transition: fill 0.2s;
+
+    &:hover {
+      fill: $colorBeauBlue;
+    }
   }
 }
