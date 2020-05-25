@@ -1,3 +1,41 @@
-#Navbar {
-  display: block;
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#NavBar {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: 1fr;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+
+  padding: 4px 32px;
+  height: 62px;
+
+  background-color: #557cbf;
+
+  @include xs-only {
+    padding: 4px 16px;
+    height: 48px;
+  }
+
+  .logo-wrap {
+    margin: auto 0;
+    height: 40px;
+
+    @include xs-only {
+      height: 30px;
+    }
+  }
+
+  .logo-icon {
+    height: 100%;
+    width: auto;
+
+    cursor: pointer;
+  }
 }
