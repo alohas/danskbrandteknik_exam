@@ -1,4 +1,111 @@
-.slide-content {
-  height: 600px;
-  background-color: brown;
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#Home {
+  .slide-item {
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-container {
+    margin: auto;
+    width: 70%;
+
+    @include bellow-s {
+      width: 85%;
+    }
+  }
+
+  .slide-content {
+    height: 700px;
+
+    background: rgb(161, 68, 211);
+    background: linear-gradient(
+      0deg,
+      rgba(161, 68, 211, 1) 0%,
+      $colorBrightNavyBlue 100%
+    );
+
+    @include bellow-s {
+      height: 90vh;
+    }
+  }
+
+  .slide-header {
+    margin-bottom: 64px;
+
+    font-family: $ffVerdana;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+
+    color: $colorWhite;
+
+    @include bellow-xl {
+      font-size: 48px;
+    }
+
+    @include bellow-l {
+      font-size: 44px;
+    }
+
+    @include bellow-s {
+      font-size: 32px;
+    }
+    @include xs-only {
+      margin-bottom: 40px;
+    }
+  }
+
+  .slide-text {
+    margin: 0;
+
+    font-family: $ffVerdana;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    color: $colorWhite;
+
+    @include bellow-xl {
+      font-size: 18px;
+    }
+    @include bellow-l {
+      font-size: 14px;
+    }
+  }
+
+  .cta-wrap {
+    display: flex;
+  }
+
+  .cta-item {
+    display: block;
+
+    margin: 64px auto 0 auto;
+    border: 3px solid $colorWhite;
+    padding: 8px 24px;
+    border-radius: 30px;
+
+    color: $colorWhite;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: $ffVerdana;
+
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      background-color: $colorWhite;
+      color: $colorBrightNavyBlue;
+    }
+
+    @include xs-only {
+      margin: 40px auto 0 auto;
+    }
+  }
 }

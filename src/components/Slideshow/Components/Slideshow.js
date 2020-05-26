@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import { connect } from "react-redux";
 import Carousel from "react-bootstrap/Carousel";
+
+//Components
+import SlideOne from "./SlideOne";
+import SlideTwo from "./SlideTwo";
+import SlideThree from "./SlideThree";
 
 //Styles
 import "./Slideshow.scss";
 
-function Slideshow() {
+function Slideshow({ displayIndicators, displayControls }) {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -13,38 +19,26 @@ function Slideshow() {
 
   return (
     <section id="Home">
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel
+        activeIndex={index}
+        controls={displayControls}
+        indicators={displayIndicators}
+        onSelect={handleSelect}
+        pause={false}
+      >
         <Carousel.Item>
           <div className="slide-content">
-            <h3>Every year there are more 60 000 fires in Denmark</h3>
-            <p>
-              Annual fire accident number can be broken down to at least 165
-              fires every day. However, it is more in reality since not every
-              accident is registered.
-            </p>
+            <SlideOne />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="slide-content">
-            <h3>
-              Fires are costly, tragic and a massive waste for a danish society
-            </h3>
-            <p>
-              Every year more than 2 billion DKK are paid out as compensation
-              for fire damage. In 2018, the average compensation for buildings
-              was over 95 000 DKK and over 27 000 for movable property.
-            </p>
+            <SlideTwo />
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="slide-content">
-            <h3>The first 5 minutes - the fire is yours!</h3>
-            <p>
-              As a general rule of firefighting, a successful fire attack
-              depends crucially on actions made within the first five minutes of
-              a fire. After that, the fire spread most likely can be stopped by
-              only a fire brigade.
-            </p>
+            <SlideThree />
           </div>
         </Carousel.Item>
       </Carousel>
@@ -52,4 +46,11 @@ function Slideshow() {
   );
 }
 
-export default Slideshow;
+function mapStateToProps(state) {
+  return {
+    displayControls: state.responsiveness.browser.greaterThan.medium,
+    displayIndicators: state.responsiveness.browser.greaterThan.extraSmall,
+  };
+}
+
+export default connect(mapStateToProps)(Slideshow);
