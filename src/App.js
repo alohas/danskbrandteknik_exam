@@ -4,6 +4,7 @@ import React from "react";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Slideshow from "./components/Slideshow";
+import About from "./components/About";
 
 //Styles
 import "./styles/App.scss";
@@ -16,6 +17,8 @@ function App() {
 
       <main className="main-content">
         <Slideshow />
+
+        <About />
       </main>
 
       <Footer />
