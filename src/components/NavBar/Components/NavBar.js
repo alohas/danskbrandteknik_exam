@@ -1,13 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
 
+//Assets
+import LogoSvg from "../../../assets/svg/Logo.svg";
+
 //Components
 import NavBarMenuDesktop from "./NavBarMenuDesktop";
 import NavBarMenuMobile from "./NavBarMenuMobile";
 
 //Styles
 import "./NavBar.scss";
-import LogoSvg from "../../../assets/svg/Logo.svg";
 
 const NavBar = ({ mobileDesign }) => {
   return (
