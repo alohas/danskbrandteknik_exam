@@ -17,9 +17,9 @@ function NavBarMenuDesktop() {
           className="cta-item"
           target="_blank"
           rel="noopener noreferrer"
-          href="http://danskbrandteknik.dk"
+          href="https://www.danskbrandteknik.dk/kontakt/"
         >
-          Learn more
+          Contact
         </a>
       </div>
     </div>
