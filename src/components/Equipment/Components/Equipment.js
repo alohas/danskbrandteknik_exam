@@ -2,7 +2,11 @@ import React from "react";
 import ItemProps from "./ItemProps";
 
 //Assets
-import FlopSvg from "../../../assets/svg/Flop.svg";
+import ExtSvg from "../../../assets/svg/Ext.svg";
+import FAidSvg from "../../../assets/svg/FAid.svg";
+import ExitSvg from "../../../assets/svg/Exit.svg";
+import Co2Svg from "../../../assets/svg/Co2.svg";
+import AlarmSvg from "../../../assets/svg/Alarm.svg";
 
 //Styles
 import "./Equipment.scss";
@@ -18,7 +22,7 @@ function Equipment() {
           fact2="Fire hose is the most used item in the fire service"
           fact3="The fire blanket can hold up to 500 °C"
         >
-          <FlopSvg className="icon" />
+          <ExtSvg className="icon" />
         </ItemProps>
 
         <ItemProps
@@ -27,7 +31,7 @@ function Equipment() {
           fact2="Time is of the essence - response time can mean further injury, life or death"
           fact3="Cost savings - first aid kits are designed to manage all types of injuries that don’t require professional help"
         >
-          <FlopSvg className="icon" />
+          <FAidSvg className="icon" />
         </ItemProps>
 
         <ItemProps
@@ -36,7 +40,7 @@ function Equipment() {
           fact2="The emergency plan defines the procedures for how to handle crisis and emergency situations in your business"
           fact3="Rescue ladder is an easy escape from the height of three floors"
         >
-          <FlopSvg className="icon" />
+          <ExitSvg className="icon" />
         </ItemProps>
 
         <ItemProps
@@ -45,7 +49,7 @@ function Equipment() {
           fact2="Gas detectors have to checked and calibrated on annually"
           fact3="Gas detectors come as portable, stationary or control panels"
         >
-          <FlopSvg className="icon" />
+          <Co2Svg className="icon" />
         </ItemProps>
 
         <ItemProps
@@ -54,7 +58,7 @@ function Equipment() {
           fact2="Overall systems are custom made by following the regulations"
           fact3="Passive fire protection today is a legal requirement"
         >
-          <FlopSvg className="icon" />
+          <AlarmSvg className="icon" />
         </ItemProps>
       </div>
     </section>
