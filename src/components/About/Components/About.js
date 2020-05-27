@@ -2,12 +2,12 @@ import React from "react";
 
 //Assets
 import DropSvg from "../../../assets/svg/Drop.svg";
-
-//Styles
-import "./About.scss";
 import FlameSvg from "../../../assets/svg/Flame.svg";
 import FlopSvg from "../../../assets/svg/Flop.svg";
 import GustSvg from "../../../assets/svg/Gust.svg";
+
+//Styles
+import "./About.scss";
 
 function About() {
   return (
