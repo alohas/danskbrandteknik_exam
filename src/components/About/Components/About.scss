@@ -73,14 +73,12 @@
 
     width: 70%;
 
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     color: $colorBlack;
 
     @include bellow-xl {
       width: 80%;
-
-      font-size: 18px;
     }
     @include bellow-l {
       width: 85%;
