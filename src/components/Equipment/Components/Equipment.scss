@@ -1,0 +1,28 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#Equipment {
+  padding: 128px 0;
+
+  background-color: $colorGhostWhite;
+
+  .equipment-header {
+    margin: 0;
+    padding-bottom: 64px;
+
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    color: $colorBlack;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: row;
+
+    margin: auto;
+    width: 70%;
+  }
+}

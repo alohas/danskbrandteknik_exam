@@ -1,0 +1,36 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#ItemProps {
+  flex: 1 1 0px;
+
+  margin: 0 24px;
+
+  .icon-wrap {
+    margin: auto;
+
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon {
+    width: auto;
+  }
+
+  .cat-name {
+    margin: 24px 0;
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: $ffVerdana;
+  }
+
+  .list {
+  }
+
+  .l-item {
+    margin-bottom: 12px;
+  }
+}
