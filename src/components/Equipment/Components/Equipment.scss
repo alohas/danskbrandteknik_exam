@@ -7,6 +7,10 @@
 
   background-color: $colorGhostWhite;
 
+  @include bellow-s {
+    padding: 98px 0;
+  }
+
   .equipment-header {
     margin: 0 12px;
     padding-bottom: 64px;
