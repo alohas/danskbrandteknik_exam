@@ -1,10 +1,11 @@
 import React from "react";
 
 //Components
-import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Slideshow from "./components/Slideshow";
 import About from "./components/About";
+import Equipment from "./components/Equipment";
+import Footer from "./components/Footer";
 
 //Styles
 import "./styles/App.scss";
@@ -19,6 +20,8 @@ function App() {
         <Slideshow />
 
         <About />
+
+        <Equipment />
       </main>
 
       <Footer />
