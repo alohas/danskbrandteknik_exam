@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Slideshow from "./components/Slideshow";
 import About from "./components/About";
 import Equipment from "./components/Equipment";
+import Cost from "./components/Cost";
 import Footer from "./components/Footer";
 
 //Styles
@@ -22,6 +23,8 @@ function App() {
         <About />
 
         <Equipment />
+
+        <Cost />
       </main>
 
       <Footer />
