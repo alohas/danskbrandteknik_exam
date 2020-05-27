@@ -6,9 +6,9 @@ const Co2Svg = (props) => {
       <path
         fill="none"
         stroke="#0074e1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="19.045"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="19.045"
         d="M189.6 186.88c16.6 52.51 107.47 52.51 122.43 0M133.83 214.36c45.7 87.6 191.53 83.8 232.34 0M313.8 325.54c43.9-14 83-42.87 107.33-86.15M78.87 239.39a191.23 191.23 0 0082.29 75.76M412.42 341.14c25-19.09 45.34-45.47 62.58-74.54M25 266.6a227.47 227.47 0 0093.12 95.26"
       />
       <ellipse
@@ -16,18 +16,18 @@ const Co2Svg = (props) => {
         cy="62.27"
         fill="none"
         stroke="#0074e1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="19.045"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="19.045"
         rx="124.88"
         ry="25.85"
       />
       <path
         fill="none"
         stroke="#0074e1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="19.045"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="19.045"
         d="M147.43 105.53c66.82 16.59 135 17.52 204.6 0M174.09 139.81c50.55 11.05 101.34 10.84 152.36 0M104.61 463.57h289.07a47.61 47.61 0 0042.7-26.33c14.95-30.12 6.75-71.1-24-96.28C387 323.7 353 320.48 313.8 325.54 291 300 256.53 290.44 213 293.44a49.55 49.55 0 00-9.66 1.65c-42.62 11.54-66.8 34.57-64.08 74.35a72.86 72.86 0 00-19.4-5.43 52.47 52.47 0 00-27.62 3.71 54.17 54.17 0 00-32.42 55.12A45.46 45.46 0 0066.61 443a44.81 44.81 0 0038 20.57z"
       />
       <g fill="#0074e1">

@@ -6,8 +6,8 @@ const ExitSvg = (props) => {
       <g
         fill="none"
         stroke="#0074e1"
-        stroke-miterlimit="10"
-        stroke-width="18.884"
+        strokeMiterlimit="10"
+        strokeWidth="18.884"
       >
         <rect width="416.61" height="416.61" x="41.69" y="41.69" rx="6.7" />
         <path d="M154.88 183.83V89.57a2.12 2.12 0 012.12-2.12h219.71a2.12 2.12 0 012.13 2.12V408a2.12 2.12 0 01-2.13 2.12H157a2.12 2.12 0 01-2.12-2.12v-42.64" />

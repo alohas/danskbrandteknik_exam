@@ -3,12 +3,7 @@ import React from "react";
 const FAidSvg = (props) => {
   return (
     <svg viewBox="0 0 500 500" {...props}>
-      <g
-        fill="none"
-        stroke="#0074e1"
-        stroke-miterlimit="10"
-        stroke-width="17.67"
-      >
+      <g fill="none" stroke="#0074e1" strokeMiterlimit="10" strokeWidth="17.67">
         <rect width="445.29" height="286.26" x="27.35" y="145.24" rx="29.82" />
         <rect width="106.02" height="32.82" x="195.98" y="68.5" rx="12.45" />
         <path d="M329.5 145.24l-.21-53.43a7.17 7.17 0 00-7.18-7.15H302M168.46 145.05l.21-53.44a7.17 7.17 0 017.18-7.15H196" />
