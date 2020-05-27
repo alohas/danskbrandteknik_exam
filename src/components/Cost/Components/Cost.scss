@@ -1,0 +1,45 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#Cost {
+  padding: 112px 0;
+  background-color: $colorWhite;
+
+  @include bellow-s {
+    padding: 98px 0;
+  }
+
+  .cost-header {
+    margin: 0 12px 48px 12px;
+
+    font-family: $ffVerdana;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    color: $colorBrightNavyBlue;
+
+    @include bellow-s {
+      font-size: 48px;
+    }
+  }
+
+  .paragraphs {
+    margin: 0 auto;
+
+    width: 70%;
+
+    font-size: 18px;
+    text-align: justify;
+    color: $colorBlack;
+
+    @include bellow-xl {
+      width: 80%;
+    }
+    @include bellow-l {
+      width: 85%;
+
+      font-size: 16px;
+    }
+  }
+}
