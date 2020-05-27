@@ -22,6 +22,7 @@ function Slideshow({ displayIndicators, displayControls }) {
       <Carousel
         activeIndex={index}
         controls={displayControls}
+        interval={10000}
         indicators={displayIndicators}
         onSelect={handleSelect}
         pause={false}
