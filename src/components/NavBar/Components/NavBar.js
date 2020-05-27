@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-scroll";
 
 //Assets
 import LogoSvg from "../../../assets/svg/Logo.svg";
@@ -14,9 +15,9 @@ import "./NavBar.scss";
 const NavBar = ({ mobileDesign }) => {
   return (
     <div id="NavBar">
-      <div className="logo-wrap">
+      <Link className="logo-wrap" to="Home" smooth={true}>
         <LogoSvg className="logo-icon" />
-      </div>
+      </Link>
       {!mobileDesign ? <NavBarMenuDesktop /> : <NavBarMenuMobile />}
     </div>
   );

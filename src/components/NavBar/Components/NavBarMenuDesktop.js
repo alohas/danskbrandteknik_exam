@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 //Styles
 import "./NavBarMenuDesktop.scss";
@@ -7,10 +8,18 @@ function NavBarMenuDesktop() {
   return (
     <div id="NavBarMenuDesktop">
       <div className="menu-items">
-        <div className="item">About</div>
-        <div className="item">Equipment</div>
-        <div className="item">Cost</div>
-        <div className="item">Fire Triangle</div>
+        <Link className="item" to="About" smooth={true}>
+          About
+        </Link>
+        <Link className="item" to="Equipment" smooth={true}>
+          Equipment
+        </Link>
+        <Link className="item" to="Cost" smooth={true}>
+          Cost
+        </Link>
+        <Link className="item" to="Triangle" smooth={true}>
+          Fire Triangle
+        </Link>
       </div>
       <div className="cta-wrap">
         <a

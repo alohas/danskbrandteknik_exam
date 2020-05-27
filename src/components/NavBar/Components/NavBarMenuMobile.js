@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 //Assets
 import BurgerMenuSvg from "../../../assets/svg/BurgerMenu.svg";
@@ -18,18 +19,28 @@ function NavBarMenuMobile() {
       <div className={classNames("burger-menu", { active: menuOpened })}>
         <CrossMenuSvg className="close-menu-icon" onClick={clickedMenu} />
         <div className="menu-items">
-          <div className="item" onClick={clickedMenu}>
+          <Link className="item" onClick={clickedMenu} to="About" smooth={true}>
             About
-          </div>
-          <div className="item" onClick={clickedMenu}>
+          </Link>
+          <Link
+            className="item"
+            onClick={clickedMenu}
+            to="Equipment"
+            smooth={true}
+          >
             Equipment
-          </div>
-          <div className="item" onClick={clickedMenu}>
+          </Link>
+          <Link className="item" onClick={clickedMenu} to="Cost" smooth={true}>
             Cost
-          </div>
-          <div className="item" onClick={clickedMenu}>
+          </Link>
+          <Link
+            className="item"
+            onClick={clickedMenu}
+            to="Triangle"
+            smooth={true}
+          >
             Fire Triangle
-          </div>
+          </Link>
         </div>
       </div>
     </div>
