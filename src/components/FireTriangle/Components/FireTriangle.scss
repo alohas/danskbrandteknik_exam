@@ -1,0 +1,91 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#FireTriangle {
+  padding: 128px 0;
+
+  background-color: $colorGhostWhite;
+
+  @include bellow-s {
+    padding: 98px 0;
+  }
+
+  .fire-tri-header {
+    margin: 0 12px;
+    padding-bottom: 64px;
+
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    color: $colorBlack;
+
+    @include bellow-s {
+      font-size: 48px;
+    }
+  }
+
+  .triangle-layout {
+    display: grid;
+    gap: 48px;
+    grid-template-areas: "intro ill outro" "fuel heat oxygen";
+
+    margin: 0 auto;
+    width: 70%;
+
+    @include bellow-xl {
+      width: 80%;
+    }
+
+    @include bellow-l {
+      grid-template-areas: "intro outro" "ill fuel" "heat oxygen";
+
+      width: 85%;
+    }
+
+    @include bellow-s {
+      width: 70%;
+      grid-template-areas: "intro" "ill" "fuel" "heat" "oxygen" "outro";
+    }
+
+    @include xs-only {
+      width: 85%;
+    }
+  }
+
+  .intro {
+    grid-area: intro;
+  }
+
+  .illustration {
+    grid-area: ill;
+  }
+
+  .outro {
+    grid-area: outro;
+  }
+
+  .fuel {
+    grid-area: fuel;
+  }
+
+  .heat {
+    grid-area: heat;
+  }
+
+  .oxygen {
+    grid-area: oxygen;
+  }
+
+  .text {
+    margin: 0;
+
+    font-size: 18px;
+    color: #011627;
+
+    @include bellow-l {
+      font-size: 16px;
+    }
+  }
+}

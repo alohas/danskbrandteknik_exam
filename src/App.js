@@ -6,6 +6,7 @@ import Slideshow from "./components/Slideshow";
 import About from "./components/About";
 import Equipment from "./components/Equipment";
 import Cost from "./components/Cost";
+import FireTriangle from "./components/FireTriangle";
 import Footer from "./components/Footer";
 
 //Styles
@@ -25,6 +26,8 @@ function App() {
         <Equipment />
 
         <Cost />
+
+        <FireTriangle />
       </main>
 
       <Footer />
