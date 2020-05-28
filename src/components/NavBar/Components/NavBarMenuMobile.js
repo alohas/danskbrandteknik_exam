@@ -36,7 +36,7 @@ function NavBarMenuMobile() {
           <Link
             className="item"
             onClick={clickedMenu}
-            to="Triangle"
+            to="FireTriangle"
             smooth={true}
           >
             Fire Triangle

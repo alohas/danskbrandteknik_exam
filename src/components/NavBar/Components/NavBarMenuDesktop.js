@@ -17,7 +17,7 @@ function NavBarMenuDesktop() {
         <Link className="item" to="Cost" smooth={true}>
           Cost
         </Link>
-        <Link className="item" to="Triangle" smooth={true}>
+        <Link className="item" to="FireTriangle" smooth={true}>
           Fire Triangle
         </Link>
       </div>
