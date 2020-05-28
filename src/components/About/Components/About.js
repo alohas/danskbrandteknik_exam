@@ -32,7 +32,8 @@ function About() {
           </div>
         </div>
         <p className="about-paragraph">
-          Brandrisiko campaign is a part of Dansk Brandteknik - supplier in fire
+          <span className="blue">Brandrisiko</span> campaign is a part of{" "}
+          <span className="blue">Dansk Brandteknik</span> - supplier in fire
           protection, first aid and gas detection. The campaign stands for
           bringing awareness about fire hazards, damage and prevention. Our
           shared goal is to reduce the number of fires and prevent the massive
