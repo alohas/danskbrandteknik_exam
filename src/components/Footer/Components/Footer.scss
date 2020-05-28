@@ -5,18 +5,132 @@
 #Footer {
   display: block;
 
-  padding: 64px 12px;
+  padding: 64px 0 32px 0px;
 
-  background-color: $colorBrightNavyBlue;
+  background-color: $colorDBT;
 
-  .brandteknik-wrap {
+  .f-content {
     display: grid;
-    align-content: center;
-    justify-content: center;
+    grid-template-areas: "sidel sider";
+
+    margin: 0 auto;
+    width: 70%;
+
+    @include bellow-l {
+      grid-template-areas: "sider" "sidel";
+
+      width: 85%;
+    }
   }
-  .nx {
-    height: 250px;
-    width: 250px;
-    fill: $colorWhite;
+
+  .f-header {
+    margin: 0 0 32px 0;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: $ffVerdana;
+
+    @include bellow-l {
+      margin: 0 0 28px 0;
+    }
+
+    @include xs-only {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .l-side {
+    grid-area: sidel;
+    display: flex;
+    flex-direction: column;
+
+    @include bellow-l {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+
+  .logo-wrap {
+    display: block;
+    justify-self: flex-end;
+  }
+
+  .og-logo {
+    height: 84px;
+    width: auto;
+
+    user-select: none;
+
+    @include bellow-s {
+      height: 72px;
+    }
+
+    @include xs-only {
+      height: 64px;
+    }
+  }
+
+  .r-side {
+    grid-area: sider;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @include bellow-l {
+      margin-bottom: 48px;
+    }
+
+    @include xs-only {
+    }
+  }
+
+  .icons {
+    margin-top: 24px;
+  }
+
+  .icon {
+    margin-right: 20px;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .location,
+  .number {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: $ffVerdana;
+
+    @include bellow-l {
+      font-size: 16px;
+    }
+  }
+
+  .copyright {
+    margin: 48px 0 0 0;
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: $ffVerdana;
+  }
+
+  .address,
+  .contacts {
+    @include bellow-l {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+
+    @include xs-only {
+      align-content: initial;
+    }
+  }
+
+  .center {
+    text-align: center;
   }
 }
