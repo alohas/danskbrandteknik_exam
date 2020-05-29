@@ -19,8 +19,15 @@ const Footer = ({ mobileDesign }) => {
           <h6 className={classNames("f-header", { center: mobileDesign })}>
             Brought to you by
           </h6>
-          <div className="logo-wrap">
-            <img className="og-logo" src={DanskBrandteknikLogo} alt="logo" />
+          <div className="wrap-wrap">
+            <a
+              className="logo-wrap"
+              href="https://www.danskbrandteknik.dk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="og-logo" src={DanskBrandteknikLogo} alt="logo" />
+            </a>
           </div>
         </div>
         <div className="r-side">
@@ -30,6 +37,7 @@ const Footer = ({ mobileDesign }) => {
             <div className="icons">
               {/* eslint-disable */}
               <a
+                className="icon-wrap"
                 href="https://www.linkedin.com/company/dansk-brandteknik-a-s/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,6 +47,7 @@ const Footer = ({ mobileDesign }) => {
               </a>
               {/* eslint-disable */}
               <a
+                className="icon-wrap"
                 href="mailto:mail@danskbrandteknik.dk"
                 target="_blank"
                 rel="noopener noreferrer"
