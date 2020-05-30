@@ -2,6 +2,9 @@ import React from "react";
 
 //Styles
 import "./FireTriangle.scss";
+import FireTriangleSvg from "../../../assets/svg/FireTriangle.svg";
+// eslint-disable-next-line
+import FireTriangleDkSvg from "../../../assets/svg/FireTriangleDk.svg";
 
 function FireTriangle() {
   return (
@@ -16,7 +19,9 @@ function FireTriangle() {
             It illustrates the three elements a fire needs to ignite:
           </p>
         </div>
-        <div className="illustration"></div>
+        <div className="illustration-wrap">
+          <FireTriangleSvg className="illustration" />
+        </div>
         <div className="outro">
           <p className="text">
             It also demonstrates the interdependence of these ingredients in

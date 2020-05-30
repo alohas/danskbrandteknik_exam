@@ -58,7 +58,7 @@
     grid-area: intro;
   }
 
-  .illustration {
+  .illustration-wrap {
     grid-area: ill;
   }
 
@@ -76,6 +76,15 @@
 
   .oxygen {
     grid-area: oxygen;
+  }
+
+  .illustration {
+    .svg-text {
+      font-size: 32px;
+    }
+    .svg-text-dk {
+      font-size: 24px;
+    }
   }
 
   .text {
