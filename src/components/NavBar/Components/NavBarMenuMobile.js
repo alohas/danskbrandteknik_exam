@@ -4,12 +4,14 @@ import { Link } from "react-scroll";
 //Assets
 import BurgerMenuSvg from "../../../assets/svg/BurgerMenu.svg";
 import CrossMenuSvg from "../../../assets/svg/CrossMenu.svg";
+import ArrowSvg from "../../../assets/svg/Arrow.svg";
 
 //Styles
 import "./NavBarMenuMobile.scss";
 
 function NavBarMenuMobile() {
   const [menuOpened, setMenuOpened] = useState(false);
+  const [langOpened, setLangOpened] = useState(false);
 
   let classNames = require("classnames");
 
@@ -42,12 +44,33 @@ function NavBarMenuMobile() {
             Fire Triangle
           </Link>
         </div>
+        <div
+          className={classNames("language-settings", { open: langOpened })}
+          onClick={clickedLang}
+        >
+          <div className="select">
+            <span className="placeholder">English</span>
+            <ArrowSvg className="icon" />
+          </div>
+          <div className="dropdown">
+            <span className="option" value="en" onClick={clickedLang}>
+              English
+            </span>
+            <span className="option" value="da" onClick={clickedLang}>
+              Dansk
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
 
   function clickedMenu() {
     setMenuOpened(!menuOpened);
+  }
+
+  function clickedLang() {
+    setLangOpened(!langOpened);
   }
 }
 

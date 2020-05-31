@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
+
+//Assets
+import ArrowSvg from "../../../assets/svg/Arrow.svg";
 
 //Styles
 import "./NavBarMenuDesktop.scss";
 
 function NavBarMenuDesktop() {
+  const [langOpened, setLangOpened] = useState(false);
+
+  let classNames = require("classnames");
+
   return (
     <div id="NavBarMenuDesktop">
       <div className="menu-items">
@@ -31,8 +38,29 @@ function NavBarMenuDesktop() {
           Contact
         </a>
       </div>
+      <div
+        className={classNames("language-settings", { open: langOpened })}
+        onClick={clickedLang}
+      >
+        <div className="select">
+          <span className="placeholder">English</span>
+          <ArrowSvg className="icon" />
+        </div>
+        <div className="dropdown">
+          <span className="option" value="en" onClick={clickedLang}>
+            English
+          </span>
+          <span className="option" value="da" onClick={clickedLang}>
+            Dansk
+          </span>
+        </div>
+      </div>
     </div>
   );
+
+  function clickedLang() {
+    setLangOpened(!langOpened);
+  }
 }
 
 export default NavBarMenuDesktop;
