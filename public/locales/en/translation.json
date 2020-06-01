@@ -1,0 +1,9 @@
+{
+  "global": {
+    "translationLanguage": {
+      "da": "Dansk",
+      "en": "English"
+    }
+  },
+  "test": "test"
+}

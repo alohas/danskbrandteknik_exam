@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 //Assets
 import ArrowSvg from "../../../assets/svg/Arrow.svg";
@@ -11,6 +13,7 @@ function NavBarMenuDesktop() {
   const [langOpened, setLangOpened] = useState(false);
 
   let classNames = require("classnames");
+  const { t, i18n } = useTranslation();
 
   return (
     <div id="NavBarMenuDesktop">
@@ -43,15 +46,29 @@ function NavBarMenuDesktop() {
         onClick={clickedLang}
       >
         <div className="select">
-          <span className="placeholder">English</span>
+          <span className="placeholder">
+            {t(`global.translationLanguage.${i18n.language}`)}
+          </span>
           <ArrowSvg className="icon" />
         </div>
         <div className="dropdown">
-          <span className="option" value="en" onClick={clickedLang}>
-            English
+          <span
+            className="option"
+            id="en"
+            onClick={(e) => {
+              changeLanguage(e.target.id);
+            }}
+          >
+            {t("global.translationLanguage.en")}
           </span>
-          <span className="option" value="da" onClick={clickedLang}>
-            Dansk
+          <span
+            className="option"
+            id="da"
+            onClick={(e) => {
+              changeLanguage(e.target.id);
+            }}
+          >
+            {t("global.translationLanguage.da")}
           </span>
         </div>
       </div>
@@ -59,6 +76,11 @@ function NavBarMenuDesktop() {
   );
 
   function clickedLang() {
+    setLangOpened(!langOpened);
+  }
+
+  function changeLanguage(lang) {
+    i18next.changeLanguage(lang);
     setLangOpened(!langOpened);
   }
 }

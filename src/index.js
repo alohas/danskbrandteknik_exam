@@ -7,6 +7,7 @@ import App from "./App";
 
 //Utils
 import store from "./store";
+import "./i18n";
 
 ReactDOM.render(
   <React.StrictMode>

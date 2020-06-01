@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 //Assets
 import DropSvg from "../../../assets/svg/Drop.svg";
@@ -10,6 +11,8 @@ import GustSvg from "../../../assets/svg/Gust.svg";
 import "./About.scss";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <section id="About">
       <div className="section-container">
@@ -31,6 +34,7 @@ function About() {
             <FlopSvg className="illustration" />
           </div>
         </div>
+        <div>{t("test")}</div>
         <p className="about-paragraph">
           <span className="blue">Brandrisiko</span> campaign is a part of{" "}
           <span className="blue">Dansk Brandteknik</span> - supplier in fire

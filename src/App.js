@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 //Components
 import NavBar from "./components/NavBar";
@@ -15,23 +15,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div id="App">
-      <NavBar />
+    <Suspense fallback="loading">
+      <div id="App">
+        <NavBar />
 
-      <main className="main-content">
-        <Slideshow />
+        <main className="main-content">
+          <Slideshow />
 
-        <About />
+          <About />
 
-        <Equipment />
+          <Equipment />
 
-        <Cost />
+          <Cost />
 
-        <FireTriangle />
-      </main>
+          <FireTriangle />
+        </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </Suspense>
   );
 }
 
