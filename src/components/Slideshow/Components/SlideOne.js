@@ -1,8 +1,15 @@
 import React from "react";
 
+//Assets
+import BgImage from "../../../assets/images/fire.png";
+
 function SlideOne() {
   return (
-    <div id="SlideOne" className="slide-item">
+    <div
+      id="SlideOne"
+      className="slide-item"
+      style={{ backgroundImage: `url(${BgImage})` }}
+    >
       <div className="content-container">
         <h3 className="slide-header">
           Every year there are more than 60.000 fires in Denmark

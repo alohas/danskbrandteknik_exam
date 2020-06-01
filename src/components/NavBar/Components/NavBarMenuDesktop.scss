@@ -71,7 +71,7 @@
     position: relative;
 
     margin: auto 0 auto 48px;
-    width: 120px;
+    width: 100px;
 
     user-select: none;
     cursor: pointer;
@@ -86,7 +86,6 @@
 
       margin: auto auto;
       border-bottom: 3px solid $colorBrightNavyBlue;
-      height: 35px;
       transition: border 0.2s;
     }
 
@@ -95,15 +94,15 @@
       font-family: $ffVerdana;
       font-weight: bold;
       color: $colorWhite;
-      font-size: 20px;
+      font-size: 16px;
     }
 
     .icon {
       margin: auto 0 auto 8px;
 
       fill: $colorWhite;
-      height: 20px;
-      width: 20px;
+      height: 16px;
+      width: 16px;
 
       transition: transform 0.15s;
     }

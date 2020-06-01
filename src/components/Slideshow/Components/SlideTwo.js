@@ -1,8 +1,15 @@
 import React from "react";
 
+//Assets
+import BgImage from "../../../assets/images/teknitions.png";
+
 function SlideTwo() {
   return (
-    <div id="SlideTwo" className="slide-item">
+    <div
+      id="SlideTwo"
+      className="slide-item"
+      style={{ backgroundImage: `url(${BgImage})` }}
+    >
       <div className="content-container">
         <h3 className="slide-header">
           Fires are costly, tragic and a massive waste for a danish society

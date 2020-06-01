@@ -51,7 +51,7 @@ function FireTriangle() {
             <span className="blue">Oxygen</span> - Ambient air is made up of
             approx. 21% oxygen and it acts as the oxidizing agent in the
             chemical reaction of a burning process (most fires only require at
-            least 16% oxygen to burn)
+            least 16% oxygen to burn).
           </p>
         </div>
       </div>

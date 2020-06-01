@@ -59,13 +59,18 @@ const Footer = ({ mobileDesign }) => {
           </div>
           <div className="address">
             <h6 className="f-header">Address</h6>
-            <p className="location">
+            <a
+              className="location"
+              href="https://www.google.com/maps/place/Rosenk%C3%A6ret+31,+2860+S%C3%B8borg/@55.743814,12.4661479,13z/data=!4m5!3m4!1s0x465251e7864308e3:0x6b48d58d429e92eb!8m2!3d55.7386684!4d12.4815947"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Rosenkæret 31
               <br />
               2860, Søborg
               <br />
               Denmark
-            </p>
+            </a>
           </div>
         </div>
       </div>

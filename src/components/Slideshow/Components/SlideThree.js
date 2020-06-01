@@ -1,8 +1,15 @@
 import React from "react";
 
+//Assets
+import BgImage from "../../../assets/images/extinguishers.png";
+
 function SlideThree() {
   return (
-    <div id="SlideThree" className="slide-item">
+    <div
+      id="SlideThree"
+      className="slide-item"
+      style={{ backgroundImage: `url(${BgImage})` }}
+    >
       <div className="content-container">
         <h3 className="slide-header">
           The first 5 minutes - the fire is yours!
