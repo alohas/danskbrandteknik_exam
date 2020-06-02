@@ -22,8 +22,13 @@ function ScrollToTop() {
   });
 
   return (
-    <Link id="ToTop" to="root" smooth={true}>
-      <UpSvg className={classNames("icon", { hide: hideElement })} />
+    <Link
+      id="ToTop"
+      to="root"
+      className={classNames({ hide: hideElement })}
+      smooth={true}
+    >
+      <UpSvg className="icon" />
     </Link>
   );
 }

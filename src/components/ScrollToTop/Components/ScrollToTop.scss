@@ -28,7 +28,7 @@
     fill: $colorBrightNavyBlue;
   }
 
-  .hide {
-    opacity: 0;
+  &.hide {
+    display: none;
   }
 }
