@@ -8,6 +8,7 @@ import Equipment from "./components/Equipment";
 import Cost from "./components/Cost";
 import FireTriangle from "./components/FireTriangle";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 //Styles
 import "./styles/App.scss";
@@ -32,6 +33,8 @@ function App() {
         </main>
 
         <Footer />
+
+        <ScrollToTop />
       </div>
     </Suspense>
   );

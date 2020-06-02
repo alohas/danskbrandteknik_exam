@@ -1,0 +1,30 @@
+@import "src/styles/global/colors";
+@import "src/styles/global/responsiveness";
+
+#ToTop {
+  position: fixed;
+  z-index: 5;
+  bottom: 50px;
+  right: 50px;
+
+  width: 50px;
+  height: 50px;
+
+  cursor: pointer;
+
+  @include xs-only {
+    opacity: 0.6;
+
+    bottom: 20px;
+    right: 20px;
+
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon {
+    width: auto;
+    height: auto;
+    fill: $colorBrightNavyBlue;
+  }
+}

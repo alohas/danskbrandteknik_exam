@@ -15,7 +15,7 @@ import "./NavBar.scss";
 const NavBar = ({ mobileDesign }) => {
   return (
     <div id="NavBar">
-      <Link className="logo-wrap" to="Home" smooth={true}>
+      <Link className="logo-wrap" to="App" smooth={true}>
         <LogoSvg className="logo-icon" />
       </Link>
       {!mobileDesign ? <NavBarMenuDesktop /> : <NavBarMenuMobile />}
