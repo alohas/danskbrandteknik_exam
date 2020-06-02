@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 //Assets
-import BgImage from "../../../assets/images/extinguishers.png";
+import BgImage from "../../../assets/images/extinguishers-min.png";
 
 function SlideThree() {
   const { t } = useTranslation();
