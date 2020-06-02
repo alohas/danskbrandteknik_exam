@@ -17,7 +17,11 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json",
+      loadPath: `/locales/{{lng}}/{{ns}}.json`,
+      //
+      // path to use for PRODUCTION
+      //
+      //loadPath: `${window.location.pathname}/locales/{{lng}}/{{ns}}.json`,
       allowMultiLoading: true,
     },
   });
