@@ -22,8 +22,30 @@
     width: auto;
   }
 
+  .link-to-item {
+    display: block;
+
+    margin: 24px auto;
+    border: 3px solid $colorBrightNavyBlue;
+    padding: 8px 24px;
+    border-radius: 30px;
+
+    color: $colorBrightNavyBlue;
+
+    text-decoration: none;
+
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      background-color: $colorWhite;
+      color: $colorBrightNavyBlue;
+    }
+  }
+
   .cat-name {
-    margin: 24px 0;
+    margin: 0;
 
     text-align: center;
     font-size: 22px;

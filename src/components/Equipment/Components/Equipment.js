@@ -24,6 +24,7 @@ function Equipment() {
           fact1={t("section.equipment.item.fire.p1")}
           fact2={t("section.equipment.item.fire.p2")}
           fact3={t("section.equipment.item.fire.p3")}
+          linkTo={""}
         >
           <ExtSvg className="icon" />
         </ItemProps>
@@ -33,6 +34,7 @@ function Equipment() {
           fact1={t("section.equipment.item.firstAid.p1")}
           fact2={t("section.equipment.item.firstAid.p2")}
           fact3={t("section.equipment.item.firstAid.p3")}
+          linkTo={""}
         >
           <FAidSvg className="icon" />
         </ItemProps>
@@ -42,6 +44,7 @@ function Equipment() {
           fact1={t("section.equipment.item.evacuation.p1")}
           fact2={t("section.equipment.item.evacuation.p2")}
           fact3={t("section.equipment.item.evacuation.p3")}
+          linkTo={""}
         >
           <ExitSvg className="icon" />
         </ItemProps>
@@ -51,6 +54,7 @@ function Equipment() {
           fact1={t("section.equipment.item.gasDetection.p1")}
           fact2={t("section.equipment.item.gasDetection.p2")}
           fact3={t("section.equipment.item.gasDetection.p3")}
+          linkTo={""}
         >
           <Co2Svg className="icon" />
         </ItemProps>
@@ -60,6 +64,7 @@ function Equipment() {
           fact1={t("section.equipment.item.fireProtectionSystems.p1")}
           fact2={t("section.equipment.item.fireProtectionSystems.p2")}
           fact3={t("section.equipment.item.fireProtectionSystems.p3")}
+          linkTo={""}
         >
           <AlarmSvg className="icon" />
         </ItemProps>

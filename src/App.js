@@ -9,6 +9,7 @@ import Cost from "./components/Cost";
 import FireTriangle from "./components/FireTriangle";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Loader from "./components/Loader";
 
 //Styles
 import "./styles/App.scss";
@@ -16,7 +17,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <Suspense fallback="loading">
+    <Suspense fallback={<Loader />}>
       <div id="App">
         <NavBar />
 
