@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 //Assets
 import BgImage from "../../../assets/images/teknitions.png";
 
 function SlideTwo() {
+  const { t } = useTranslation();
+
   return (
     <div
       id="SlideTwo"
@@ -11,14 +14,8 @@ function SlideTwo() {
       style={{ backgroundImage: `url(${BgImage})` }}
     >
       <div className="content-container">
-        <h3 className="slide-header">
-          Fires are costly, tragic and a massive waste for a danish society
-        </h3>
-        <p className="slide-text">
-          Every year more than 2 billion DKK are paid out as compensation for
-          fire damage. In 2018, the average compensation for buildings was over
-          95 000 DKK and over 27 000 for movable property.
-        </p>
+        <h3 className="slide-header">{t("slider.two.h")}</h3>
+        <p className="slide-text">{t("slider.two.p")}</p>
         <div className="cta-wrap">
           <a
             className="cta-item"
@@ -26,7 +23,7 @@ function SlideTwo() {
             rel="noopener noreferrer"
             href="http://danskbrandteknik.dk"
           >
-            Learn more
+            {t("slider.two.b")}
           </a>
         </div>
       </div>

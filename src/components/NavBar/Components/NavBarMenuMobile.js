@@ -25,7 +25,7 @@ function NavBarMenuMobile() {
         <CrossMenuSvg className="close-menu-icon" onClick={clickedMenu} />
         <div className="menu-items">
           <Link className="item" onClick={clickedMenu} to="About" smooth={true}>
-            About
+            {t("navBar.links.about")}
           </Link>
           <Link
             className="item"
@@ -33,10 +33,10 @@ function NavBarMenuMobile() {
             to="Equipment"
             smooth={true}
           >
-            Equipment
+            {t("navBar.links.equipment")}
           </Link>
           <Link className="item" onClick={clickedMenu} to="Cost" smooth={true}>
-            Cost
+            {t("navBar.links.cost")}
           </Link>
           <Link
             className="item"
@@ -44,7 +44,7 @@ function NavBarMenuMobile() {
             to="FireTriangle"
             smooth={true}
           >
-            Fire Triangle
+            {t("navBar.links.triangle")}
           </Link>
         </div>
         <div
@@ -93,6 +93,7 @@ function NavBarMenuMobile() {
   function changeLanguage(lang) {
     i18next.changeLanguage(lang);
     setLangOpened(!langOpened);
+    setMenuOpened(!menuOpened);
   }
 }
 

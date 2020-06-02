@@ -19,16 +19,16 @@ function NavBarMenuDesktop() {
     <div id="NavBarMenuDesktop">
       <div className="menu-items">
         <Link className="item" to="About" smooth={true}>
-          About
+          {t("navBar.links.about")}
         </Link>
         <Link className="item" to="Equipment" smooth={true}>
-          Equipment
+          {t("navBar.links.equipment")}
         </Link>
         <Link className="item" to="Cost" smooth={true}>
-          Cost
+          {t("navBar.links.cost")}
         </Link>
         <Link className="item" to="FireTriangle" smooth={true}>
-          Fire Triangle
+          {t("navBar.links.triangle")}
         </Link>
       </div>
       <div className="cta-wrap">
@@ -38,7 +38,7 @@ function NavBarMenuDesktop() {
           rel="noopener noreferrer"
           href="https://www.danskbrandteknik.dk/kontakt/"
         >
-          Contact
+          {t("navBar.links.contact")}
         </a>
       </div>
       <div

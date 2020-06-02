@@ -20,7 +20,7 @@
     color: $colorBrightNavyBlue;
 
     @include bellow-s {
-      font-size: 48px;
+      font-size: 36px;
     }
   }
 
@@ -74,7 +74,6 @@
     width: 70%;
 
     font-size: 18px;
-    text-align: justify;
     color: $colorBlack;
 
     @include bellow-xl {

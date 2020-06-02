@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 //Assets
 import BgImage from "../../../assets/images/fire.png";
 
 function SlideOne() {
+  const { t } = useTranslation();
+
   return (
     <div
       id="SlideOne"
@@ -11,14 +14,8 @@ function SlideOne() {
       style={{ backgroundImage: `url(${BgImage})` }}
     >
       <div className="content-container">
-        <h3 className="slide-header">
-          Every year there are more than 60.000 fires in Denmark
-        </h3>
-        <p className="slide-text">
-          Annual fire accident number can be broken down to at least 165 fires
-          every day. However, it is more in reality since not every accident is
-          registered.
-        </p>
+        <h3 className="slide-header">{t("slider.one.h")}</h3>
+        <p className="slide-text">{t("slider.one.p")}</p>
         <div className="cta-wrap">
           <a
             className="cta-item"
@@ -26,7 +23,7 @@ function SlideOne() {
             rel="noopener noreferrer"
             href="http://danskbrandteknik.dk"
           >
-            Learn more
+            {t("slider.one.b")}
           </a>
         </div>
       </div>

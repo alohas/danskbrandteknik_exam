@@ -26,12 +26,7 @@
   .slide-content {
     height: 700px;
 
-    background: rgb(161, 68, 211);
-    background: linear-gradient(
-      0deg,
-      rgba(161, 68, 211, 1) 0%,
-      $colorBrightNavyBlue 100%
-    );
+    background-color: $colorGhostWhite;
 
     @include bellow-s {
       height: 90vh;

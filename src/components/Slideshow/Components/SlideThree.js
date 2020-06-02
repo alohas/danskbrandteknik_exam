@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 //Assets
 import BgImage from "../../../assets/images/extinguishers.png";
 
 function SlideThree() {
+  const { t } = useTranslation();
+
   return (
     <div
       id="SlideThree"
@@ -11,15 +14,8 @@ function SlideThree() {
       style={{ backgroundImage: `url(${BgImage})` }}
     >
       <div className="content-container">
-        <h3 className="slide-header">
-          The first 5 minutes - the fire is yours!
-        </h3>
-        <p className="slide-text">
-          As a general rule of firefighting, a successful fire attack depends
-          crucially on actions made within the first five minutes of a fire.
-          After that, the fire spread most likely can be stopped by only a fire
-          brigade.
-        </p>
+        <h3 className="slide-header">{t("slider.three.h")}</h3>
+        <p className="slide-text">{t("slider.three.p")}</p>
         <div className="cta-wrap">
           <a
             className="cta-item"
@@ -27,7 +23,7 @@ function SlideThree() {
             rel="noopener noreferrer"
             href="http://danskbrandteknik.dk"
           >
-            Learn more
+            {t("slider.three.b")}
           </a>
         </div>
       </div>
