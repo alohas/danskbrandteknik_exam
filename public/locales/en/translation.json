@@ -5,5 +5,100 @@
       "en": "English"
     }
   },
-  "test": "test"
+  "navBar": {
+    "links": {
+      "about": "About",
+      "equipment": "Equipment",
+      "cost": "Cost",
+      "triangle": "Fire Triangle",
+      "contact": "Contact"
+    }
+  },
+  "footer": {
+    "h": "Brought to you by",
+    "contact": "Contact",
+    "address": "Address",
+    "copyright": "© Dansk Brandteknik as | All rights reserved"
+  },
+  "slider": {
+    "one": {
+      "h": "Every year there are more than 60 000 fires in Denmark",
+      "p": "Annual fire accident number can be broken down to at least 165 fires every day. However, it is more in reality since not every accident is registered.",
+      "b": "Get Protected"
+    },
+    "two": {
+      "h": "Fires are costly, tragic and a massive waste for a Danish society",
+      "p": "Every year more than 2 billion DKK are paid out as compensation for fire damage. In 2018, the average compensation for buildings was over 95 000 DKK and over 27 000 for movable property.",
+      "b": "Learn More"
+    },
+    "three": {
+      "h": "The first 5 minutes - the fire is yours!",
+      "p": "As a rule of firefighting, a successful fire attack depends crucially on actions made within the first five minutes of a fire. After that, the fire spread most likely can be stopped by only a fire brigade.",
+      "b": "Learn More"
+    }
+  },
+  "section": {
+    "about": {
+      "h": "About",
+      "p": "<span class=\"blue\">Brandrisiko</span> campaign is a part of  <span class=\"blue\">Dansk Brandteknik</span> - supplier in fire protection, first aid and gas detection. The campaign stands for bringing awareness about fire hazards, damage and prevention. Our shared goal is to reduce the number of fires and prevent the massive waste of fire tragedies. “We are here to help protect our customers’ market shares! The fire should never be a tragedy, but merely a fright/surprise.”"
+    },
+    "equipment": {
+      "h": "Essential Equipment",
+      "item": {
+        "fire": {
+          "h": "Fire",
+          "p1": "There are 6 classes of fires - for different fires and fuel types",
+          "p2": "The efficiency of modern fire extinguishers has dramatically increased",
+          "p3": "The fire blanket can hold temperatures up to 500°C"
+        },
+        "firstAid": {
+          "h": "First Aid",
+          "p1": "Without immediate treatment, 90-95% of cardiac arrests are fatal",
+          "p2": "Time is of the essence - response time can mean further injury, life or death",
+          "p3": "Cost savings - first aid kits are designed to manage all types of injuries that do not require professional help"
+        },
+        "evacuation": {
+          "h": "Evacuation",
+          "p1": "Escape route plans must be made individually for each building",
+          "p2": "The emergency plan defines the procedures for how to handle crisis and emergency situations in your facilities",
+          "p3": "Rescue ladder is an easy escape from the height of three floors"
+        },
+        "gasDetection": {
+          "h": "Gas Detection",
+          "p1": "Hazardous gases are a real and serious risk in many industries in the gas, maritime, metal, brewery, wastewater and oil sectors",
+          "p2": "Gas detectors must be checked and calibrated annually",
+          "p3": "Gas detectors come as portable, stationary or control panels"
+        },
+        "fireProtectionSystems": {
+          "h": "Fire Protection Systems",
+          "p1": "Fire protection system can be a combination of different types of detectors and alarms",
+          "p2": "Overall systems are custom made by following the regulations",
+          "p3": "Passive fire protection today is a legal requirement"
+        }
+      }
+    },
+    "cost": {
+      "h": "Damage Cost",
+      "p1": "In most instances, fire protection is “peanuts” and a general statement could be called out that most companies and institutions spend far more money on coffee than on fire protection. It is not the financial amount that scares them, but it is the fact that they do not see that fire is a real risk and could have serious consequences for them. This leads to an attitude: “It is a waste of money” and sometimes concludes to reducing the amount spent on protection and prevention to an absolute zero.",
+      "p2": "The Insurance industry, the fire authorities and civil engineers involved in fire protection all agree that the total cost of damages from fires in Denmark is far more than 5 billion DKK annually (this is exclusive of the cost for operating fire brigades and etc.). Compensations from insurance companies also show more than 5 billion DKK. That is more than 13 million DKK every 24 hours. A massive and meaningless loss.",
+      "p3": "In general, the total cost per day for fire protection in most companies or institutions is often less than 1 DKK day/employee – when they rent the equipment via Rental and Maintenance Agreement. So, we are talking about the absolute minimum amount - “peanuts”."
+    },
+    "triangle": {
+      "h": "Fire Triangle",
+      "intro": "The fire triangle or combustion triangle is a simple model for understanding chemical reaction which must occur to create a fire. It illustrates the three elements a fire needs to ignite. When these three elements are present in the necessary amount, a fire WILL occur.",
+      "fuel": {
+        "name": "Fuel",
+        "text": " - For a fire to start there must be a material to burn – and this is referred to as the fuel. It is any kind of flammable material, including wood, paper, fabric, or chemicals."
+      },
+      "heat": {
+        "name": "Heat",
+        "text": " - As well as a source of fuel, a fire needs heat to ignite initially. Flammable materials, as they burn, give off vapors which are themselves flammable. If heat is present, they will combust. Heat is also responsible for the spread and acceleration of fire."
+      },
+      "oxygen": {
+        "name": "Oxygen",
+        "text": " - Ambient air is made up of approx. 21% oxygen and it acts as the oxidizing agent in the chemical reaction of a burning process."
+      },
+      "outro": "It also demonstrates the interdependence of these ingredients in creating and sustaining fire and explains that removing any one of these elements would prevent or extinguish the fire."
+    }
+  }
 }

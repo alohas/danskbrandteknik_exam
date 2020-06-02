@@ -5,5 +5,100 @@
       "en": "English"
     }
   },
-  "test": "tiost"
+  "navBar": {
+    "links": {
+      "about": "Om Us",
+      "equipment": "Udstyr",
+      "cost": "Koste",
+      "triangle": "Brandtrekanten",
+      "contact": "Kontakt"
+    }
+  },
+  "footer": {
+    "h": "Bragt til dig af",
+    "contact": "Kontakt",
+    "address": "Adresse",
+    "copyright": "© Dansk Brandteknik a.s. | Alle rettigheder forbeholdes"
+  },
+  "slider": {
+    "one": {
+      "h": "Hvert år opstår der mere end 60.000 brand I Danmark",
+      "p": "Antallet af brande pr. år giver I gennemsnit mindst 165 brande om dagen. Men i virkeligheden er tallet sandsynligvis meget større, fordi ikke alle brande bliver indrapporteret.",
+      "b": "Få beskyttelse"
+    },
+    "two": {
+      "h": "Brande er dyre, tragiske og betyder et massivt tab for det danske samfund.",
+      "p": "Hvert år udbetales der mere end 2 milliarder kroner I brandskadeerstatninger. I 2018 var den gennemsnitlige erstatning for bygningsskader mere end kr. 95.000 og for løsøre mere end 27.000.",
+      "b": "Lær mere"
+    },
+    "three": {
+      "h": "De første 5 minutter – er brande dit ansvar",
+      "p": "Det er vigtigt, at branden bliver bekæmpet effektivt inden for de første 5 minutter, Efter det, er det desværre ofte en opgave for brandvæsenet.",
+      "b": "Lær mere"
+    }
+  },
+  "section": {
+    "about": {
+      "h": "Om Us",
+      "p": "<span class=\"blue\">Brandrisiko</span> informationskampagne fra <span class=\"blue\">Dansk Brandteknik</span> – leverandør af brandmateriel, førstehjælp og gasdetektering. Informationskampagnen har som formål at skabe opmærksomhed om brandrisici, brandskader og forebyggelse. ”Vores mål er at nedbringe antallet af brande og dermed stoppe det massive spild af ressourcer - med tilhørende tragedier”"
+    },
+    "equipment": {
+      "h": "Vigtigt Udstyr",
+      "item": {
+        "fire": {
+          "h": "Brand",
+          "p1": "Der er 6 brandklasser – som beskriver de forskellige brandrisici",
+          "p2": "Moderne brandslukkere er blevet ekstremt effektive – og nemme at anvende",
+          "p3": "Brandtæpper kan modstå temperaturer op til 500°C"
+        },
+        "firstAid": {
+          "h": "Førstehjælp",
+          "p1": "Uden omgående indsats er 90-95% af akutte hjertestop dødelige",
+          "p2": "Tiden er afgørende – hurtig indsats kan betyde forskellen imellem liv – eller invaliditet og død",
+          "p3": "Førstehjælpsudstyret er designet til at hjælpe ved mange forskellige ulykker – uden at kræve professionel assistance."
+        },
+        "evacuation": {
+          "h": "Evakuering",
+          "p1": "Flugtruter skal tilpasses den enkelte bygning (ref. Bygningsreglementet)",
+          "p2": "Beredskabsplanen beskriver procedurerne for at håndtere ulykker og kriser i en nødsituation",
+          "p3": "Redningsstiger er en vigtig og nødvendig hjælp til flugt fra 1., 2. og 3. sal"
+        },
+        "gasDetection": {
+          "h": "Gasdetektering",
+          "p1": "Farlige gasser er en reel og alvorlig risiko I gas-, søfarts- metal-, bryggeri-, fødevare- og spildevandssektorerne",
+          "p2": "Gasdetektorer skal normalt kontrolleres og kalibreres årligt for at give den nødvendige sikkerhed",
+          "p3": "Gasdetektorer findes både som bærbart/håndholdt udstyr og som faste installationer"
+        },
+        "fireProtectionSystems": {
+          "h": "Brandsikringsanlæg",
+          "p1": "Brandalarmanlæg skal skræddersyes til den enkelte bygning/opgave",
+          "p2": "Der findes specifikke krav til opbygningen af ABA-anlæg og til deres vedligeholdelse",
+          "p3": "Bygningsreglementet indeholder en række krav til passiv brandbeskyttelse samt bygningskonstruktion og - indretning"
+        }
+      }
+    },
+    "cost": {
+      "h": "Omkostninger Til Skade",
+      "p1": "I langt de fleste tilfælde, udgør investeringen I brandbeskyttelse “småpenge” – og en generel tommelfingerregel siger, at de fleste virksomheder anvender mere på kaffe end på brandbeskyttelse. Så det er ikke økonomi, der afholder os fra at brandsikre effektivt, det er meget oftere det faktum, at vi ikke opfatter en brand som en aktuel risiko, som kan have dybt alvorlige konsekvenser for vores virksomheder / institutioner / arbejdspladser.",
+      "p2": "Forsikringsbranchen, brandmyndighederne og rådgivere som arbejder med brandbeskyttelse er enige om, at de samlede økonomiske brandskader I Danmark overstiger 5 milliarder kroner om året (og dette er vel at mærke uden at indregne omkostninger til driften af brandvæsenet). 5 milliarder kroner om året bliver til mere end 13 millioner hver eneste dag. Et meningsløst spild.",
+      "p3": "Som en generel regel siger vi, at den samlede investering for de fleste virksomheder og institutioner udgør mindre end 1 kroner om dagen pr. medarbejder – til at dække både leje og vedligeholdelse af brandmateriellet, så vi taler virkelige om ”peanuts”."
+    },
+    "triangle": {
+      "h": "Brand Trekanten",
+      "intro": "Brandtrekanten er en simpel model til at forstå brand. Hvad der skal til for at en brand opstår – og hvordan vi slukker den. Der skal tre ting til for at en brand opstår, og hvis de er til stede i tilstrækkeligt omfang VIL der opstå en brand:",
+      "fuel": {
+        "name": "Brændstof",
+        "text": " - for at få en brand, skal der naturligvis være noget brandbart materiale. Uanset type inkluderer dette alt brændbart, som f.eks. træ, papir, tekstiler, olie, plast, mange kemikalier m.m."
+      },
+      "heat": {
+        "name": "Varme",
+        "text": " - udover brændbart materiale - kræver en brand også varme, Brændbart materiale afgiver dampe, når de opvarmes, og når der tilføres varme vil disse dampe antændes. Varmen medvirker i sig selv til at udvikle og til at sprede branden."
+      },
+      "oxygen": {
+        "name": "Ilt",
+        "text": " - luften indeholder ca. 21% ilt og ilt er en nødvendig forudsætning for at en brand kan opstå."
+      },
+      "outro": "Brandtrekanten illustrerer også den gensidige afhængighed af disse tre elementer for at en brand kan opstå og udvikle sig. Samtidig fortæller den, at hvis du fjerner en af siderne i brandtrekanten, så kan en brand ikke opstå – og branden vil slukkes."
+    }
+  }
 }
