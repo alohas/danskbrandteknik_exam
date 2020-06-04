@@ -24,22 +24,55 @@
     }
   }
 
-  .paragraphs {
-    margin: 0 auto;
+  .content-wrap {
+    display: flex;
+    flex-direction: column;
 
     width: 70%;
+    margin: auto;
+
+    @include bellow-xl {
+      width: 80%;
+    }
+
+    @include bellow-l {
+      width: 85%;
+    }
+  }
+
+  .paragraphs {
+    margin: 48px auto 0 auto;
 
     font-size: 18px;
     text-align: justify;
     color: $colorBlack;
 
-    @include bellow-xl {
-      width: 80%;
-    }
     @include bellow-l {
-      width: 85%;
-
       font-size: 16px;
     }
+  }
+
+  .media-wrap {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    @include bellow-s {
+      display: block;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+  }
+  .video-responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 }
