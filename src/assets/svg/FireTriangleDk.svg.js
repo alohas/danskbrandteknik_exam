@@ -17,7 +17,7 @@ const FireTriangleDkSvg = (props) => {
         fontFamily="Verdana"
         fontWeight="bold"
       >
-        Warme
+        Varme
       </text>
       <text
         className="svg-text-dk"

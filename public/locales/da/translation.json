@@ -7,9 +7,9 @@
   },
   "navBar": {
     "links": {
-      "about": "Om Us",
+      "about": "Om Os",
       "equipment": "Udstyr",
-      "cost": "Koste",
+      "cost": "Brandskader",
       "triangle": "Brandtrekanten",
       "contact": "Kontakt"
     }
@@ -22,13 +22,13 @@
   },
   "slider": {
     "one": {
-      "h": "Hvert år opstår der mere end 60.000 brand I Danmark",
-      "p": "Antallet af brande pr. år giver I gennemsnit mindst 165 brande om dagen. Men i virkeligheden er tallet sandsynligvis meget større, fordi ikke alle brande bliver indrapporteret.",
+      "h": "Hvert år opstår der mere end 60.000 brande i Danmark",
+      "p": "Antallet af brande pr. år giver i gennemsnit mindst 165 brande om dagen. Men i virkeligheden er tallet sandsynligvis meget større, fordi ikke alle brande bliver indrapporteret.",
       "b": "Få beskyttelse"
     },
     "two": {
       "h": "Brande er dyre, tragiske og betyder et massivt tab for det danske samfund.",
-      "p": "Hvert år udbetales der mere end 2 milliarder kroner I brandskadeerstatninger. I 2018 var den gennemsnitlige erstatning for bygningsskader mere end kr. 95.000 og for løsøre mere end 27.000.",
+      "p": "Hvert år udbetales der mere end 2 milliarder kroner i brandskadeerstatninger. I 2018 var den gennemsnitlige erstatning for bygningsskader mere end kr. 95.000 og for løsøre mere end 27.000.",
       "b": "Få beskyttelse"
     },
     "three": {
@@ -39,11 +39,11 @@
   },
   "section": {
     "about": {
-      "h": "Om Us",
-      "p": "<span class=\"blue\">Brandrisiko</span> informationskampagne fra <span class=\"blue\">Dansk Brandteknik</span> – leverandør af brandmateriel, førstehjælp og gasdetektering. Informationskampagnen har som formål at skabe opmærksomhed om brandrisici, brandskader og forebyggelse. ”Vores mål er at nedbringe antallet af brande og dermed stoppe det massive spild af ressourcer - med tilhørende tragedier”"
+      "h": "Om os",
+      "p": "<span class=\"blue\">Brandrisiko</span> er en informationskampagne fra <span class=\"blue\">Dansk Brandteknik</span> – leverandør af brandmateriel, førstehjælp og gasdetektering. Informationskampagnen har som formål at skabe opmærksomhed om brandrisici, brandskader og forebyggelse. ”Vores mål er at nedbringe antallet af brande og dermed stoppe det massive spild af ressourcer - med tilhørende tragedier”"
     },
     "equipment": {
-      "h": "Vigtigt Udstyr",
+      "h": "Vigtigt udstyr",
       "item": {
         "fire": {
           "h": "Brand",
@@ -65,7 +65,7 @@
         },
         "gasDetection": {
           "h": "Gasdetektering",
-          "p1": "Farlige gasser er en reel og alvorlig risiko I gas-, søfarts- metal-, bryggeri-, fødevare- og spildevandssektorerne",
+          "p1": "Farlige gasser er en reel og alvorlig risiko i gas-, søfarts- metal-, bryggeri-, fødevare- og spildevandssektorerne",
           "p2": "Gasdetektorer skal normalt kontrolleres og kalibreres årligt for at give den nødvendige sikkerhed",
           "p3": "Gasdetektorer findes både som bærbart/håndholdt udstyr og som faste installationer"
         },
@@ -78,17 +78,17 @@
       }
     },
     "cost": {
-      "h": "Omkostninger Til Skade",
-      "p1": "I langt de fleste tilfælde, udgør investeringen I brandbeskyttelse “småpenge” – og en generel tommelfingerregel siger, at de fleste virksomheder anvender mere på kaffe end på brandbeskyttelse. Så det er ikke økonomi, der afholder os fra at brandsikre effektivt, det er meget oftere det faktum, at vi ikke opfatter en brand som en aktuel risiko, som kan have dybt alvorlige konsekvenser for vores virksomheder / institutioner / arbejdspladser.",
-      "p2": "Forsikringsbranchen, brandmyndighederne og rådgivere som arbejder med brandbeskyttelse er enige om, at de samlede økonomiske brandskader I Danmark overstiger 5 milliarder kroner om året (og dette er vel at mærke uden at indregne omkostninger til driften af brandvæsenet). 5 milliarder kroner om året bliver til mere end 13 millioner hver eneste dag. Et meningsløst spild.",
-      "p3": "Som en generel regel siger vi, at den samlede investering for de fleste virksomheder og institutioner udgør mindre end 1 kroner om dagen pr. medarbejder – til at dække både leje og vedligeholdelse af brandmateriellet, så vi taler virkelige om ”peanuts”."
+      "h": "Omkostninger til skader",
+      "p1": "I langt de fleste tilfælde, udgør investeringen i brandbeskyttelse “småpenge” – og en generel tommelfingerregel siger, at de fleste virksomheder anvender mere på kaffe end på brandbeskyttelse. Så det er ikke økonomi, der afholder os fra at brandsikre effektivt, det er meget oftere det faktum, at vi ikke opfatter en brand som en aktuel risiko, som kan have dybt alvorlige konsekvenser for vores virksomheder / institutioner / arbejdspladser.",
+      "p2": "Forsikringsbranchen, brandmyndighederne og rådgivere som arbejder med brandbeskyttelse er enige om, at de samlede økonomiske brandskader i Danmark overstiger 5 milliarder kroner om året (og dette er vel at mærke uden at indregne omkostninger til driften af brandvæsenet). 5 milliarder kroner om året bliver til mere end 13 millioner hver eneste dag. Et meningsløst spild.",
+      "p3": "Som en generel regel siger vi, at den samlede investering for de fleste virksomheder og institutioner udgør mindre end 1 krone om dagen pr. medarbejder – til at dække både leje og vedligeholdelse af brandmateriellet, så vi taler virkelige om ”peanuts”."
     },
     "triangle": {
-      "h": "Brand Trekanten",
+      "h": "Brandtrekanten",
       "intro": "Brandtrekanten er en simpel model til at forstå brand. Hvad der skal til for at en brand opstår – og hvordan vi slukker den. Der skal tre ting til for at en brand opstår, og hvis de er til stede i tilstrækkeligt omfang VIL der opstå en brand:",
       "fuel": {
         "name": "Brændstof",
-        "text": " - for at få en brand, skal der naturligvis være noget brandbart materiale. Uanset type inkluderer dette alt brændbart, som f.eks. træ, papir, tekstiler, olie, plast, mange kemikalier m.m."
+        "text": " - for at få en brand, skal der naturligvis være noget brændbart materiale. Uanset type inkluderer dette alt brændbart, som f.eks. træ, papir, tekstiler, olie, plast, mange kemikalier m.m."
       },
       "heat": {
         "name": "Varme",

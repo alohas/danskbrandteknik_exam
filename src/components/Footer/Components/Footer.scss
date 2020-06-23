@@ -114,6 +114,8 @@
     font-family: $ffVerdana;
     color: $colorBlack;
 
+    text-decoration: none;
+
     @include bellow-l {
       font-size: 16px;
     }

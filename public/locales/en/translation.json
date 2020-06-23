@@ -27,20 +27,20 @@
       "b": "Get Protected"
     },
     "two": {
-      "h": "Fires are costly, tragic and a massive waste for a Danish society",
+      "h": "Fires are costly, tragic and a massive waste for the Danish society",
       "p": "Every year more than 2 billion DKK are paid out as compensation for fire damage. In 2018, the average compensation for buildings was over 95 000 DKK and over 27 000 for movable property.",
       "b": "Get Protected"
     },
     "three": {
       "h": "The first 5 minutes - the fire is yours!",
-      "p": "As a rule of firefighting, a successful fire attack depends crucially on actions made within the first five minutes of a fire. After that, the fire spread most likely can be stopped by only a fire brigade.",
+      "p": "As a rule of firefighting, a successful fire attack depends crucially on actions made within the first five minutes of a fire. After that, the fire spread most likely can be stopped by the only a fire brigade.",
       "b": "Get Protected"
     }
   },
   "section": {
     "about": {
       "h": "About",
-      "p": "<span class=\"blue\">Brandrisiko</span> campaign is a part of  <span class=\"blue\">Dansk Brandteknik</span> - supplier in fire protection, first aid and gas detection. The campaign stands for bringing awareness about fire hazards, damage and prevention. Our shared goal is to reduce the number of fires and prevent the massive waste of fire tragedies. “We are here to help protect our customers’ market shares! The fire should never be a tragedy, but merely a fright/surprise.”"
+      "p": "<span class=\"blue\">Brandrisiko</span> campaign is a part of  <span class=\"blue\">Dansk Brandteknik</span> - supplier of fire protection, first aid and gas detection. The campaign stands for bringing awareness about fire hazards, damage and prevention. Our shared goal is to reduce the number of fires and prevent the massive waste from fire tragedies. “We are here to help protect our customers’ market shares! The fire should never be a tragedy, but merely a fright/surprise.”"
     },
     "equipment": {
       "h": "Essential Equipment",
@@ -61,13 +61,13 @@
           "h": "Evacuation",
           "p1": "Escape route plans must be made individually for each building",
           "p2": "The emergency plan defines the procedures for how to handle crisis and emergency situations in your facilities",
-          "p3": "Rescue ladder is an easy escape from the height of three floors"
+          "p3": "Rescue ladder is an easy escape from the height of 2-3 floors"
         },
         "gasDetection": {
           "h": "Gas Detection",
           "p1": "Hazardous gases are a real and serious risk in many industries in the gas, maritime, metal, brewery, wastewater and oil sectors",
           "p2": "Gas detectors must be checked and calibrated annually",
-          "p3": "Gas detectors come as portable, stationary or control panels"
+          "p3": "Gas detectors come as portable, stationary with control panels"
         },
         "fireProtectionSystems": {
           "h": "Fire Protection Systems",
